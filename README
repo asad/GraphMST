@@ -1,23 +1,29 @@
 README.txt
 Overview
-========
-
-This is a python implementation of Chu-Liu/Edmond's algorithm
+=========================
+Finding MST in molecular graphs
+=========================
+* This is a Java implementation of Chu-Liu/Edmond's algorithm
 to find the minimum spanning tree in a directed graph.
+* Kosaraju's algorithm finds strongly-connected components in a directed graph.
+* Tarjan's algorithm is a slightly faster variation on this.
 
+=====
 Usage
 =====
+Please refer to test cases
 
-import edmonds
+======
+Depends
+======
 
-# Below, g is graph representation of minimum spanning tree
-# root is the starting node of the MST, and G is the input graph
-g = edmonds.mst(root,G)
+CDK-core classes
 
+==========
 References
 ==========
 
 * http://en.wikipedia.org/wiki/Edmonds's_algorithm
-* http://algowiki.net/wiki/index.php/Edmonds's_algorithm (The java code from this is
-in the 'doc' directory.)
-
+* http://algowiki.net/wiki/index.php/Edmonds's_algorithm
+* http://algowiki.net/wiki/index.php?title=Kruskal%27s_algorithm
+* http://algowiki.net/wiki/index.php?title=Kosaraju%27s_algorithm
